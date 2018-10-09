@@ -12,6 +12,8 @@ public class Pedido {
     private double totalPedido;
     //produtos no estoque
     private Produto produtos = new Produto();
+    
+    private Cliente cliente = new Cliente();
 
     private int status;
 
